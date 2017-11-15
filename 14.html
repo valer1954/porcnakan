@@ -1,0 +1,20 @@
+<head>
+	<meta charset="UTF-8">
+	<title>JS</title>
+	<link rel="stylesheet" href="14.css">
+</head>
+<body>
+	
+	<div class="popup" onclick="myFunction()">Click me!
+	<span class="popuptext" id="myPopup"> blah blah blah...</span>
+	</div>	
+	<script>
+	function myFunction(){
+	var popup=document.getElementById("myPopup");
+	popup.classList.toggle("hid");
+	popup.classList.toggle("show");
+	
+}
+	</script>
+</body>
+</html>
